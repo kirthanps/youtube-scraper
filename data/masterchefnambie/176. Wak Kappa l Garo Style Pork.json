@@ -10,7 +10,15 @@
     "video_id": "T2ujjsLQkJg",
     "url": "https://www.youtube.com/watch?v=T2ujjsLQkJg",
     "description": "Kappa is an authentic and distinct cooking style followed by the A'chik a.k.a Garo people of Meghalaya in Northeastern India and Northern Bangladesh.  Meat of choice is boiled with lots of chilies, ginger, garlic and the key ingredient an alkali. Traditionally, 'Kalchi' obtained from ash of burnt bamboo or plantain stumps was used as the alkali in cooking. More recently cooking soda is used instead of Kalchi. Kappa is a hot, soft, succulent and juicy meat dish that goes really well with steamed rice and features commonly on a Garo platter.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chilies",
+      "onion",
+      "beef",
+      "cooking soda",
+      "garlic",
+      "ginger",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:01.319] hi guys welcome to eat your Kaa with me",

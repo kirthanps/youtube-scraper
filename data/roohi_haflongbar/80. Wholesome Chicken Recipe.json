@@ -10,7 +10,13 @@
     "video_id": "EEPkzB9OMRo",
     "url": "https://www.youtube.com/watch?v=EEPkzB9OMRo",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "rice flour",
+      "chicken",
+      "soda",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:00.160] looks like this at the moment J",

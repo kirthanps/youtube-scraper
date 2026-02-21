@@ -10,7 +10,10 @@
     "video_id": "F0V9HS4OU4U",
     "url": "https://www.youtube.com/watch?v=F0V9HS4OU4U",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken",
+      "floss"
+    ]
   },
   "transcription_english": [
     "[00:00:00.970] [Music]",

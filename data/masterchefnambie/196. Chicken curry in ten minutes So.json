@@ -10,7 +10,9 @@
     "video_id": "kXzFR8pA7wA",
     "url": "https://www.youtube.com/watch?v=kXzFR8pA7wA",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken"
+    ]
   },
   "transcription_english": [
     "[00:00:00.880] Some days I want a meal that feels like",

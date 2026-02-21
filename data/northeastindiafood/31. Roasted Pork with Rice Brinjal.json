@@ -10,7 +10,13 @@
     "video_id": "xpjQ09u5ekM",
     "url": "https://www.youtube.com/watch?v=xpjQ09u5ekM",
     "description": "Smoked Pork Recipe || Roasted Pork with Rice || Brinjal Fry , Salad and Green chilli || Northeast India Food || Cooking and Eating video || #mukbang #eatingshow #porkeating",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "pork",
+      "salad",
+      "rice",
+      "brinjal",
+      "green chilli"
+    ]
   },
   "transcription_english": [
     "[00:00:02.000] [Music]",

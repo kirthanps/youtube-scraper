@@ -10,7 +10,11 @@
     "video_id": "R7ZJkPkV70A",
     "url": "https://www.youtube.com/watch?v=R7ZJkPkV70A",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "eggs",
+      "milk",
+      "bread"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.350] [संगीत]",

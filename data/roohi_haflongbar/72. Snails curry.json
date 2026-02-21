@@ -10,7 +10,10 @@
     "video_id": "BiXI8ddOlUM",
     "url": "https://www.youtube.com/watch?v=BiXI8ddOlUM",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "sugar",
+      "potatoes"
+    ]
   },
   "transcription_hindi": [
     "[00:00:01.199] चता एवरी बडी टुडे आई एम गोइंग टू ईट शगर",

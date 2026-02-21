@@ -10,7 +10,13 @@
     "video_id": "cHImGJgMQpc",
     "url": "https://www.youtube.com/watch?v=cHImGJgMQpc",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chili",
+      "rice",
+      "turmeric",
+      "bitter tomato",
+      "long beans"
+    ]
   },
   "transcription_english": [
     "[00:00:00.280] J everybody today in my thali I have",

@@ -10,7 +10,10 @@
     "video_id": "Df1LM1YmE8o",
     "url": "https://www.youtube.com/watch?v=Df1LM1YmE8o",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "potato",
+      "egg"
+    ]
   },
   "transcription_english": [
     "[00:00:01.310] [Music]",

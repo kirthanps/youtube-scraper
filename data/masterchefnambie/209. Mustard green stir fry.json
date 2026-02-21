@@ -10,7 +10,12 @@
     "video_id": "g6FvOCBbvCw",
     "url": "https://www.youtube.com/watch?v=g6FvOCBbvCw",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "mustard greens",
+      "mustard oil",
+      "garlic",
+      "turmeric"
+    ]
   },
   "transcription_english": [
     "[00:00:00.320] Let's make mustard green stir fry. A",

@@ -10,7 +10,14 @@
     "video_id": "Ce8NEXAQDjE",
     "url": "https://www.youtube.com/watch?v=Ce8NEXAQDjE",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "coriander",
+      "lemon",
+      "chili paste",
+      "onions",
+      "chicken",
+      "pepper"
+    ]
   },
   "transcription_english": [
     "[00:00:00.640] let's make tohan",

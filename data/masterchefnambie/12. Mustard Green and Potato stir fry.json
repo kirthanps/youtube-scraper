@@ -10,7 +10,12 @@
     "video_id": "2Tnvi5KrMW0",
     "url": "https://www.youtube.com/watch?v=2Tnvi5KrMW0",
     "description": "\"Join me on my journey as I whip up my ultimate comfort food: Potato Mustard Green Stir Fry! This humble side dish complements rotis and rice perfectly, bringing simplicity and deliciousness to every meal. With the help of MAGGI Masala-ae-Magic, this dish becomes an extraordinary culinary delight, easy to make and bursting with flavor. Give it a try to elevate your dining experience!\"",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "mustard greens",
+      "onions",
+      "potatoes",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:00.120] [Music]",

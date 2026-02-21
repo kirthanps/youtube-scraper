@@ -10,7 +10,13 @@
     "video_id": "0ptawAG7A4o",
     "url": "https://www.youtube.com/watch?v=0ptawAG7A4o",
     "description": "Pork Curry cooking in Pressure cooker | Eating Pork Curry + Cucumber + Onion + King Chilli with Rice | #porkeating #mukbang #eatingshow #spicyfood",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "pork",
+      "king chilli",
+      "cucumber",
+      "onion"
+    ]
   },
   "transcription_english": [
     "[00:00:02.350] [Music]",

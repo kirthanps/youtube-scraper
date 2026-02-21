@@ -10,7 +10,14 @@
     "video_id": "P0MQPnuFbN0",
     "url": "https://www.youtube.com/watch?v=P0MQPnuFbN0",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "beef",
+      "chicken",
+      "goat",
+      "peanuts",
+      "peanut soup",
+      "unsalted unsweetened peanut butter"
+    ]
   },
   "transcription_english": [
     "[00:00:03.760] Oh my god, I did not know peanuts can",

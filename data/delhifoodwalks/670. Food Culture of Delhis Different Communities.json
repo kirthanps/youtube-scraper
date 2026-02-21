@@ -10,7 +10,14 @@
     "video_id": "KWIKqpJSfn0",
     "url": "https://www.youtube.com/watch?v=KWIKqpJSfn0",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "dates",
+      "jelly",
+      "spoon",
+      "tea leaves",
+      "rice",
+      "bread"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.500] झाल हेलो एवरीवन कैसे हैं आप सब बहुत",

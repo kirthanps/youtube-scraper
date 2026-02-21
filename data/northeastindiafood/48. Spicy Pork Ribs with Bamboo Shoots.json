@@ -10,7 +10,11 @@
     "video_id": "2hUhePnOmCk",
     "url": "https://www.youtube.com/watch?v=2hUhePnOmCk",
     "description": "Spicy Pork Ribs with Bamboo Shoots | Cooking and Eating Pork ribs with Mustard Greens Boil | #porkeating #spicyfood #asianfoods",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "pork ribs",
+      "bamboo shoots",
+      "mustard greens"
+    ]
   },
   "transcription_english": [
     "[00:00:00.510] [Music]",

@@ -10,7 +10,10 @@
     "video_id": "nms04hr6j9w",
     "url": "https://www.youtube.com/watch?v=nms04hr6j9w",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "soy sauce",
+      "egg"
+    ]
   },
   "transcription_english": [
     "[00:00:00.960] hi everyone the shalong literary Fest is",

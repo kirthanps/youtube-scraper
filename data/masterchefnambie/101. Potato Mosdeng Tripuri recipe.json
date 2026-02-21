@@ -10,7 +10,13 @@
     "video_id": "3bwCNkcOlYU",
     "url": "https://www.youtube.com/watch?v=3bwCNkcOlYU",
     "description": "Like the other Mosdeng (Chili paste) dishes, this is an amazingly simple yet delicious Tripuri dish made with fire grilled potatoes mashed and mixed with chili paste or finely chopped chilies. \n\nThis is an amazing side dish that goes best with the meals.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "cheese",
+      "chili paste",
+      "finely chopped chilies",
+      "potatoes",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:04.520] hi guys welcome back to eat your cuppa",

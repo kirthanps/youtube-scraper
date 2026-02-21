@@ -10,7 +10,14 @@
     "video_id": "RmbDRBZjfDI",
     "url": "https://www.youtube.com/watch?v=RmbDRBZjfDI",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "cheese",
+      "newpotato",
+      "chicken pie",
+      "mushroom tartlet",
+      "raspberry juice",
+      "custard pie"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.080] दिल्ली में यूरोप डे सेलिब्रेट किया जा",

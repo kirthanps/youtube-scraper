@@ -10,7 +10,12 @@
     "video_id": "9kC_Jpchcj8",
     "url": "https://www.youtube.com/watch?v=9kC_Jpchcj8",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "salt",
+      "mustard oil",
+      "lemon",
+      "chicken"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.240] दिस रेसिपी इ नो जोक ज एवरी बडी आज मैं",

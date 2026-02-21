@@ -10,7 +10,13 @@
     "video_id": "zihWnFKf5qM",
     "url": "https://www.youtube.com/watch?v=zihWnFKf5qM",
     "description": "It’s mulberry season, and I couldn’t resist making a quick compote — just fresh mulberries, a touch of sugar, a squeeze of lemon juice, and a splash of water. Simple, vibrant, and so versatile — perfect on toast, pancakes, or even with yogurt",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "lemon juice",
+      "water",
+      "sugar",
+      "mulberries",
+      "berries"
+    ]
   },
   "transcription_english": [
     "[00:00:00.760] don't let malur season pass by make this",

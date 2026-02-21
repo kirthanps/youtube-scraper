@@ -10,7 +10,13 @@
     "video_id": "xWc3YLalSxk",
     "url": "https://www.youtube.com/watch?v=xWc3YLalSxk",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "bitter tomato",
+      "mustard greens",
+      "arad dal",
+      "fermented dry fish"
+    ]
   },
   "transcription_english": [
     "[00:00:01.920] Make sure you eat mustard greens.",

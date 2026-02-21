@@ -10,7 +10,18 @@
     "video_id": "G3PqkqI3A8g",
     "url": "https://www.youtube.com/watch?v=G3PqkqI3A8g",
     "description": "There are a hundred ways to make pitika—and today, it’s flat bean pitika on my plate. Simple, soulful, and full of home.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "coriander",
+      "lemon",
+      "water",
+      "onions",
+      "beans",
+      "garlic",
+      "mustard oil",
+      "salt",
+      "chili",
+      "flat beans"
+    ]
   },
   "transcription_english": [
     "[00:00:02.800] I did tell you there are 100 ways to",

@@ -10,7 +10,11 @@
     "video_id": "H45AWr9v43U",
     "url": "https://www.youtube.com/watch?v=H45AWr9v43U",
     "description": "Eating Pork Ribs fry + Salad + King chilli with Rice || #porkeating #eatingshow #porkbelly #spicyfood",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "pork ribs",
+      "rice",
+      "king chilli"
+    ]
   },
   "transcription_english": [
     "[00:00:01.640] [Music]",

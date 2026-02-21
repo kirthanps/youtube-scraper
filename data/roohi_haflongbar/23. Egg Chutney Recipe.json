@@ -10,7 +10,14 @@
     "video_id": "vswcg5l6wrk",
     "url": "https://www.youtube.com/watch?v=vswcg5l6wrk",
     "description": "This is a simple recipe that I learned from my late Baba. He used to make this during weekends  when he had more time at hand. He used to boil eggs and add fermented dried fish to it. He would add a dollop of mustard oil for the zing . I still can see Baba mashing the eggs with his hands and proclaiming that everything tastes good when you use your hands .",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "salt",
+      "fermented dried fish",
+      "mustard oil",
+      "chili",
+      "eggs",
+      "onion"
+    ]
   },
   "transcription_english": [
     "[00:00:00.199] one two three CH say chai CH yes so",

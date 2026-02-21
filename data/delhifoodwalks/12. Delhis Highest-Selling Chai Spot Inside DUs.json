@@ -10,7 +10,17 @@
     "video_id": "Lt1wO1CHz4s",
     "url": "https://www.youtube.com/watch?v=Lt1wO1CHz4s",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "gherkins",
+      "yeast",
+      "cream",
+      "milk",
+      "plum",
+      "garlic",
+      "oats",
+      "tea",
+      "sugar"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.080] मुझसे किसी ने पूछा चाय तुम्हारे लिए क्या",

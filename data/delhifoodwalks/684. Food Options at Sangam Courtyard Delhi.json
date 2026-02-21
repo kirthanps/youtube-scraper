@@ -10,7 +10,12 @@
     "video_id": "zC2ZPD4cOb8",
     "url": "https://www.youtube.com/watch?v=zC2ZPD4cOb8",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "peanuts",
+      "beetroot",
+      "chilies",
+      "chicken"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.000] संगम कोट यार्ड में आपका स्वागत",

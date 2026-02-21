@@ -10,7 +10,16 @@
     "video_id": "9eqlWpZNSG0",
     "url": "https://www.youtube.com/watch?v=9eqlWpZNSG0",
     "description": "These chayote squash momos are a fresh twist on the classic. Unlike regular cabbage-filled momos, chayote brings a subtle sweetness, tender crunch, and juicier bite—making each dumpling lighter, more flavorful, and utterly satisfying. Once you try these, cabbage momos might just feel a little bland.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "cabbage",
+      "chayote squash",
+      "onions",
+      "garlic",
+      "ginger",
+      "choty squash",
+      "squash",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:01.319] still making veg Momo with cabbage let",

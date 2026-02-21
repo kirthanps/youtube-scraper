@@ -10,7 +10,15 @@
     "video_id": "s3L84CVg9I8",
     "url": "https://www.youtube.com/watch?v=s3L84CVg9I8",
     "description": "An easy to make Tripuri chutney made of brinjal, chilies and onions.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chilies",
+      "salt",
+      "brinjals",
+      "onion",
+      "garlic",
+      "flour",
+      "chili"
+    ]
   },
   "transcription_english": [
     "[00:00:07.460] minami it's raining cats and dogs",

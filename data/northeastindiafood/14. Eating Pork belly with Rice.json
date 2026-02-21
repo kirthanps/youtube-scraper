@@ -10,7 +10,10 @@
     "video_id": "TWCUF5L4XDg",
     "url": "https://www.youtube.com/watch?v=TWCUF5L4XDg",
     "description": "Eating Pork belly with Rice || #porkeating #porkbelly #mukbang",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "pork belly",
+      "rice"
+    ]
   },
   "transcription_english": [
     "[00:00:00.599] foreign",

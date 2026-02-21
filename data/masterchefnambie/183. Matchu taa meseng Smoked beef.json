@@ -10,7 +10,13 @@
     "video_id": "Ij64V22UDgY",
     "url": "https://www.youtube.com/watch?v=Ij64V22UDgY",
     "description": "Tangy and sour Garo dish made of smoked beef and taro and flavored with dried bamboo shoots.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "bamboo shoots",
+      "dried bamboo shoots",
+      "beef",
+      "taro",
+      "yam"
+    ]
   },
   "transcription_english": [
     "[00:00:03.540] [Music]",

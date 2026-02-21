@@ -10,7 +10,11 @@
     "video_id": "sCFHdoKq7oE",
     "url": "https://www.youtube.com/watch?v=sCFHdoKq7oE",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "salt",
+      "green pepper",
+      "coconut"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.000] ये इंग्लिश मार्क्स हिलसा मछली जल की रानी",

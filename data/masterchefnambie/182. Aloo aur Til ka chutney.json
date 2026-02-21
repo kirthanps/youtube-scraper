@@ -10,7 +10,17 @@
     "video_id": "F2gpD7rJ9lQ",
     "url": "https://www.youtube.com/watch?v=F2gpD7rJ9lQ",
     "description": "Delicious Nepalese potato salad sprinkled with roasted sesame seed and mixed with fried onion and chilies in mustard oil.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chilies",
+      "lemon",
+      "onion",
+      "mustard",
+      "mustard oil",
+      "bal potatoes",
+      "potatoes",
+      "sesame seed",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:18.279] hi guys uh welcome back today I'm going",

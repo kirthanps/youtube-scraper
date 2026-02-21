@@ -10,7 +10,14 @@
     "video_id": "a1iPcE7M9CA",
     "url": "https://www.youtube.com/watch?v=a1iPcE7M9CA",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "eggs",
+      "soy sauce",
+      "bamboo shoot pickle",
+      "noodles",
+      "chili oil",
+      "potatoes"
+    ]
   },
   "transcription_english": [
     "[00:00:00.680] let's make the easiest and yummiest dish",

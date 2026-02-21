@@ -10,7 +10,13 @@
     "video_id": "rTtV9RxSo18",
     "url": "https://www.youtube.com/watch?v=rTtV9RxSo18",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "coconut oil",
+      "avocado oil",
+      "eggs",
+      "butter",
+      "ghee"
+    ]
   },
   "transcription_english": [
     "[00:00:01.040] You know, I really love eggs. They're",

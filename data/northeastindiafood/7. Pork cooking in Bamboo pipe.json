@@ -10,7 +10,13 @@
     "video_id": "kQtJQSt84uY",
     "url": "https://www.youtube.com/watch?v=kQtJQSt84uY",
     "description": "Pork cooking in Bamboo pipe | Eating Bamboo Pork + Lady Finger Boil + Cucumber + Onion with Rice | #bamboopork #porkeating #traditional",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "pork",
+      "lady finger",
+      "cucumber",
+      "onion"
+    ]
   },
   "transcription_english": [
     "[00:00:02.350] [Music]",

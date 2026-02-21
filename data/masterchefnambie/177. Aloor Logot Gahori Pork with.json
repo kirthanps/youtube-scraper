@@ -10,7 +10,19 @@
     "video_id": "2XM9dw7QL5E",
     "url": "https://www.youtube.com/watch?v=2XM9dw7QL5E",
     "description": "A classic and delicious Assamese style pork dish recipe, where pork meat is cooked with fire grilled tomatoes and potatoes. This spicy and tangy pork dish is served as a side with meals in Assam.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chili paste",
+      "garlic",
+      "ginger",
+      "dry red chilies",
+      "ginger garlic paste",
+      "tomatoes",
+      "aloos",
+      "potatoes",
+      "salt",
+      "pork",
+      "pork meat"
+    ]
   },
   "transcription_english": [
     "[00:00:01.640] hi guys welcome back to eat your Kaa",

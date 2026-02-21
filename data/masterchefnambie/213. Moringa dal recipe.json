@@ -10,7 +10,15 @@
     "video_id": "zBbQ9cgqldk",
     "url": "https://www.youtube.com/watch?v=zBbQ9cgqldk",
     "description": "A comforting bowl of moringa dal, simmered slowly with yellow lentils, tempered with garlic and onions, and finished with tender moringa lot drumsticks  plucked fresh from the garden. Nourishing, earthy, and wholesome — just the way home should taste.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chilies",
+      "onions",
+      "mustard oil",
+      "moranga drumsticks",
+      "moringa lot drumsticks",
+      "turmeric",
+      "masur dal"
+    ]
   },
   "transcription_english": [
     "[00:00:02.170] [Music]",

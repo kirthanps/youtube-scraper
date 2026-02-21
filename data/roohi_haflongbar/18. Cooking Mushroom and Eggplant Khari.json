@@ -10,7 +10,13 @@
     "video_id": "BsLLUyX_F_8",
     "url": "https://www.youtube.com/watch?v=BsLLUyX_F_8",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "mushroom",
+      "water",
+      "chili",
+      "eggplant",
+      "fermented dry fish"
+    ]
   },
   "transcription_english": [
     "[00:00:00.199] CH everybody today I'm going to cook",

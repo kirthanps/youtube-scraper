@@ -10,7 +10,12 @@
     "video_id": "HgF7iXkOuok",
     "url": "https://www.youtube.com/watch?v=HgF7iXkOuok",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "honey",
+      "garlic",
+      "chicken thighs"
+    ]
   },
   "transcription_english": [
     "[00:00:01.040] Some days I just don't want to cook. And",

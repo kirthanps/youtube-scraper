@@ -10,7 +10,10 @@
     "video_id": "h2irpGavRto",
     "url": "https://www.youtube.com/watch?v=h2irpGavRto",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "mango",
+      "passion fruit"
+    ]
   },
   "transcription_english": [
     "[00:00:00.400] You know, sometimes all it takes is a",

@@ -10,7 +10,15 @@
     "video_id": "fI9suEVLynM",
     "url": "https://www.youtube.com/watch?v=fI9suEVLynM",
     "description": "Shark Puttu – a true delicacy from the southern coast of India. This beautifully spiced and flaky dish made with tender shark meat is a coastal treasure, rich in flavor and tradition. Every bite is a burst of warmth, depth, and a taste of the sea – simple yet incredibly delicious!",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "shark meat",
+      "coconut",
+      "fish",
+      "chili powder",
+      "bas spices",
+      "pepper",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:00.160] ever tried a dish that is banned in many",

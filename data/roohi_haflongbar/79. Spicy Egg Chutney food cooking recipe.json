@@ -10,7 +10,10 @@
     "video_id": "VBuyRMU8KmA",
     "url": "https://www.youtube.com/watch?v=VBuyRMU8KmA",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "fish",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:01.440] say oh sorry now we will roast",

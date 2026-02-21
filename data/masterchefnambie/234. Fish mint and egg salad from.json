@@ -10,7 +10,13 @@
     "video_id": "yiElGnBkDUM",
     "url": "https://www.youtube.com/watch?v=yiElGnBkDUM",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "mint",
+      "fish",
+      "boiled eggs",
+      "black sesame",
+      "egg"
+    ]
   },
   "transcription_english": [
     "[00:00:00.960] hi guys today let's dive in and make",

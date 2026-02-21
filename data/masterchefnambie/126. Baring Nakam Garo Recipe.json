@@ -10,7 +10,15 @@
     "video_id": "3f5jWNDU4PQ",
     "url": "https://www.youtube.com/watch?v=3f5jWNDU4PQ",
     "description": "Brinjal with dry fish is an A'chik dish which is an amazing combination of brinjal and dry fish cooked with a pinch of cooking soda or organically made alkali - Kalchi/kratchi.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "dried fish",
+      "green chilies",
+      "cooking soda",
+      "brinjal",
+      "gar",
+      "alkali - kratchi",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:05.380] [Music]",

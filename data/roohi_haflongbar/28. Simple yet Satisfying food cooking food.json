@@ -10,7 +10,15 @@
     "video_id": "HnOQ9qIhf-E",
     "url": "https://www.youtube.com/watch?v=HnOQ9qIhf-E",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "tomato",
+      "pork",
+      "fish",
+      "rice",
+      "potatoes",
+      "bahanda leaves",
+      "carrots"
+    ]
   },
   "transcription_hindi": [
     "[00:00:01.760] हाय एवरीबॉडी टुडेली आई हैव राइस बमबू शूट",

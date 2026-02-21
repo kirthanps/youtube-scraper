@@ -10,7 +10,10 @@
     "video_id": "BjlRWHDQEGI",
     "url": "https://www.youtube.com/watch?v=BjlRWHDQEGI",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "sugar",
+      "milk"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.000] खूब फलो थैंक यू नेने दोनों बाद अने दोनों",

@@ -10,7 +10,18 @@
     "video_id": "PBsWQ3T--WQ",
     "url": "https://www.youtube.com/watch?v=PBsWQ3T--WQ",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "ginger",
+      "pineapple",
+      "soy sauce",
+      "apple cider vinegar",
+      "chili",
+      "pork",
+      "peppers",
+      "onion",
+      "garlic",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:01.919] everybody smoked pork with pineapple",

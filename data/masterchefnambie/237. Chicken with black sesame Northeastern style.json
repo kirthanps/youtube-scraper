@@ -10,7 +10,10 @@
     "video_id": "yLMD9QrAGGU",
     "url": "https://www.youtube.com/watch?v=yLMD9QrAGGU",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken",
+      "black sesame"
+    ]
   },
   "transcription_english": [
     "[00:00:00.880] let's make chicken with black sesame",

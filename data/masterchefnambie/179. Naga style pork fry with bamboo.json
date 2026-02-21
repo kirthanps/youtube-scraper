@@ -10,7 +10,17 @@
     "video_id": "s_dPYGKIQMw",
     "url": "https://www.youtube.com/watch?v=s_dPYGKIQMw",
     "description": "A simple but delicious pork dish where succulent pork meat is sliced thin and fried in its own fat with the fiery raja chilies a.k.a bhut jolokia. This dish will leave your lips burning and you craving for more.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chili flakes",
+      "lemon",
+      "onion",
+      "bamboo shoots",
+      "raja chilies",
+      "garlic paste",
+      "tomatoes",
+      "salt",
+      "pork"
+    ]
   },
   "transcription_english": [
     "[00:00:05.600] Hi guys, welcome back to Eat Your Kappa",

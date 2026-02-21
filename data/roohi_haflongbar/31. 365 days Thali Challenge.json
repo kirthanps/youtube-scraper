@@ -10,7 +10,13 @@
     "video_id": "x49Qe9vRbIo",
     "url": "https://www.youtube.com/watch?v=x49Qe9vRbIo",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "fish gravy",
+      "black sesame paste",
+      "banana blossom chutney",
+      "squash"
+    ]
   },
   "transcription_english": [
     "[00:00:00.160] sh everybody today in matali I have rice",

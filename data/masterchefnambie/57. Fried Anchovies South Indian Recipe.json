@@ -10,7 +10,18 @@
     "video_id": "v5Rt1GQiHoI",
     "url": "https://www.youtube.com/watch?v=v5Rt1GQiHoI",
     "description": "This is a very simple and easy to make south Indian dish. Anchovies are marinated and deep fried till they are crisp and served as a side to steamed rice. \n\nIngredients\n\nAnchovies - 1/2 kg\nShallot/Onion Paste - 1 Tbsp\nGinger Garlic Paste - 2 Tsp\nChili Powder - 2 Tbsp\nBlack Pepper Powder - 1/2 Tsp\nTurmeric - 1/2 Tsp\nLime Juice - 1 Tbsp\nRice Flour - 2 Tbsp\nSalt to taste\nOil for deep frying\n\nLets Connect!\nFacebook: https://www.facebook.com/EatYourKappa/\nInstagram: https://www.instagram.com/eatyourkappa/\nemail: eatyourkappa@gmail.com",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "oil",
+      "rice flour",
+      "chili powder",
+      "black pepper powder",
+      "ginger garlic paste",
+      "salt",
+      "shallot/onion paste",
+      "anchovies",
+      "lime juice",
+      "turmeric"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.110] जो हाइब्रिड मैथिली जो कप अवधि लंबी में",

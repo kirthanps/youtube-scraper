@@ -10,7 +10,17 @@
     "video_id": "QA5Gl9ZTzKY",
     "url": "https://www.youtube.com/watch?v=QA5Gl9ZTzKY",
     "description": "Doh sniang iong is a delicious and authentic Khasi dish from the Northeastern state of Meghalaya. Pork meat is cooked with roasted and pounded sesame seeds, which gives it a distinct nutty flavor. It is served with steamed rice or Khasi rice cakes called Putharo. It's simple and easy to make.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "onions",
+      "water",
+      "sesame seeds",
+      "garlic",
+      "chili",
+      "meat",
+      "onion paste",
+      "salt",
+      "pork"
+    ]
   },
   "transcription_english": [
     "[00:00:01.719] welcome to eat your",

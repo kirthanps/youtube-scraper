@@ -10,7 +10,12 @@
     "video_id": "8113YqfdPHI",
     "url": "https://www.youtube.com/watch?v=8113YqfdPHI",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "miso",
+      "chickpeas",
+      "popcorn",
+      "soybean paste"
+    ]
   },
   "transcription_english": [
     "[00:00:00.000] [Music]",

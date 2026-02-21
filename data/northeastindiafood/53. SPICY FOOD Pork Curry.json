@@ -10,7 +10,11 @@
     "video_id": "hpONxfJ4NuI",
     "url": "https://www.youtube.com/watch?v=hpONxfJ4NuI",
     "description": "SPICY FOOD || Pork Curry + Mustard leaves boil with white rice | Spicy Pork ribs eating | #eatingshow #porkeating #asianfoods #spicyfood #northeastindiafood",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "mustard leaves",
+      "pork",
+      "curry"
+    ]
   },
   "transcription_english": [
     "[00:00:08.080] so",

@@ -10,7 +10,14 @@
     "video_id": "gZOWrB3Tjqc",
     "url": "https://www.youtube.com/watch?v=gZOWrB3Tjqc",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "cheese",
+      "onions",
+      "feta",
+      "garlic",
+      "paneer",
+      "nutmeg"
+    ]
   },
   "transcription_english": [
     "[00:00:00.800] This is what happens when a samosa takes",

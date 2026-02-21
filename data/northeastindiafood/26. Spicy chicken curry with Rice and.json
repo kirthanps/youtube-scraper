@@ -10,7 +10,11 @@
     "video_id": "bg9f5SUbeOA",
     "url": "https://www.youtube.com/watch?v=bg9f5SUbeOA",
     "description": "Spicy chicken curry with Rice and chilli eating || Spicy food eating show || Northeast eating show || #mukbang #eatingshow #chickencurryeating",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken",
+      "chilli",
+      "rice"
+    ]
   },
   "transcription_english": [
     "[00:00:02.170] [Music]",

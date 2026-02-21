@@ -10,7 +10,16 @@
     "video_id": "edCz-eJWwnQ",
     "url": "https://www.youtube.com/watch?v=edCz-eJWwnQ",
     "description": "Phaksha bexuk is a Bhutanese style pork recipe, where pork is cooked tender with vegetable of your choice. Usually mountain vegetable are used to make this recipe and you can choose to use any vegetable of your choice. \n\nMusic Credits: Clear Air - Somewhere Sunny by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)\nSource: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100626\nArtist: http://incompetech.com/\nThis tender pork dish is a good side to steamed rice.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "onion",
+      "water",
+      "vegetable",
+      "ginger",
+      "chili powder",
+      "tomatoes",
+      "potatoes",
+      "salt"
+    ]
   },
   "transcription_english": [
     "[00:00:05.779] hi guys welcome back to eat your cuppa",

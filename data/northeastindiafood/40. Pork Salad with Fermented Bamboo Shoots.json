@@ -10,7 +10,13 @@
     "video_id": "xBR5Z8nKAoU",
     "url": "https://www.youtube.com/watch?v=xBR5Z8nKAoU",
     "description": "simple pork salad || Pork Salad with Fermented Bamboo Shoots, Tomato Onion salad and Mustard Greens Boil with Rice || #asianfoods #eatingshow #porkeating",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "mustard greens",
+      "rice",
+      "onion",
+      "tomato",
+      "fermented bamboo shoots"
+    ]
   },
   "transcription_english": [
     "[00:00:00.500] [Music]",

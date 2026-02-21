@@ -10,7 +10,16 @@
     "video_id": "vBOhfncil5w",
     "url": "https://www.youtube.com/watch?v=vBOhfncil5w",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "eggs",
+      "oil",
+      "fries",
+      "ginger",
+      "liver",
+      "chili",
+      "buckwheat",
+      "kidney"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.080] ज एवरी बडी आज मैं बनाने जा रही हूं गोट",
