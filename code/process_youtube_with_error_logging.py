@@ -12,7 +12,8 @@ CHANNELS = {
     "masterchefnambie": "https://www.youtube.com/@Masterchefnambie",
     "delhifoodwalks": "https://www.youtube.com/@delhifoodwalks",
     "northeastindiafood": "https://www.youtube.com/c/Northeastindiafood",
-    "roohi_haflongbar": "https://www.youtube.com/@roohi_haflongbar"
+    "roohi_haflongbar": "https://www.youtube.com/@roohi_haflongbar",
+    "main_bhi_bharat": "https://www.youtube.com/c/MainBhiBharat"
 }
 
 BASE_DIR = Path("data")
