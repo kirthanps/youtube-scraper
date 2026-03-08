@@ -305,8 +305,7 @@ def process_channel(channel_dir):
 
 if __name__ == "__main__":
 
-    # for channel_dir in BASE_DIR.iterdir():
-    #     if channel_dir.is_dir():
-    #         process_channel(channel_dir)
-    process_channel(BASE_DIR / "main_bhi_bharat")
+    for channel_dir in BASE_DIR.iterdir():
+        if channel_dir.is_dir():
+            process_channel(channel_dir)
     print("\n===== STAGE-2 SUBTITLE DOWNLOAD COMPLETE =====")
