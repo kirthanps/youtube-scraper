@@ -4,7 +4,7 @@ from pathlib import Path
 from openpyxl import Workbook
 
 
-SKIP_DIRS = {"to_translate", "translated"}
+SKIP_DIRS = {"to_translate", "translated", "to_translate_old", "translated_old"}
 
 COLUMNS = [
     "File Name",
