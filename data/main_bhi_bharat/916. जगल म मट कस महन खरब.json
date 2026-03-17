@@ -10,7 +10,13 @@
     "video_id": "R_3EBWK3DKg",
     "url": "https://www.youtube.com/watch?v=R_3EBWK3DKg",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken",
+      "meat",
+      "pork",
+      "seeds",
+      "peppers"
+    ]
   },
   "transcription_hindi": [
     "[00:00:02.720] दोस्तों इस वक्त हम छत्तीसगढ़ के बीजापुर",

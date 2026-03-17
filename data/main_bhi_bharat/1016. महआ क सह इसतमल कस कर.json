@@ -10,7 +10,11 @@
     "video_id": "aE6HVIOxNRw",
     "url": "https://www.youtube.com/watch?v=aE6HVIOxNRw",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "loaf of bread",
+      "wine",
+      "tea"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.040] हां तो जो अपन थकान आ जाती है अभी तो लोग",

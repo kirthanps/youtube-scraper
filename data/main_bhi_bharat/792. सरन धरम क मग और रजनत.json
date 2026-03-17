@@ -10,7 +10,10 @@
     "video_id": "TVDK9IZGAmg",
     "url": "https://www.youtube.com/watch?v=TVDK9IZGAmg",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "tea",
+      "water"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.160] मैं हूं श्याम सुंदर",

@@ -10,7 +10,16 @@
     "video_id": "yTlo6u1l88k",
     "url": "https://www.youtube.com/watch?v=yTlo6u1l88k",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "milk",
+      "salt",
+      "baking powder",
+      "vanilla extract",
+      "all-purpose flour",
+      "granulated sugar",
+      "eggs",
+      "butter"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.080] तो देवयानी इसमें बनने में कितना समय",

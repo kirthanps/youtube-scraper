@@ -10,7 +10,14 @@
     "video_id": "KJ36T3aHMCI",
     "url": "https://www.youtube.com/watch?v=KJ36T3aHMCI",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "pepper",
+      "garlic",
+      "onion",
+      "chili",
+      "dry fish",
+      "red chilies"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.030] [संगीत]",

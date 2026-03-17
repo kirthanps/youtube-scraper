@@ -10,7 +10,17 @@
     "video_id": "iAIUWXrYVdk",
     "url": "https://www.youtube.com/watch?v=iAIUWXrYVdk",
     "description": "In this episode of The Tribal Kitchen, we explore the culinary traditions of the Ho tribe and learn how to make their delicious dish, Sim Jillu Lathe. This hearty meal features tender chicken cooked with fragrant spices and served on a bed of fluffy rice. Join us as we step into the Ho tribe's kitchen and discover the secrets behind this flavorful and satisfying recipe.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "green pepper",
+      "chicken",
+      "spices",
+      "salt",
+      "ginger",
+      "garlic",
+      "turmeric",
+      "onions",
+      "rice"
+    ]
   },
   "transcription_hindi": [
     "[00:00:12.280] [संगीत]",

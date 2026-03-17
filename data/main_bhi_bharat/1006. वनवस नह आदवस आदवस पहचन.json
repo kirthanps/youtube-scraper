@@ -10,7 +10,10 @@
     "video_id": "NXY20Z3C7ow",
     "url": "https://www.youtube.com/watch?v=NXY20Z3C7ow",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "identity",
+      "land"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.000] बीजेपी क्या बोलती है हमें वनवासी बोलती",

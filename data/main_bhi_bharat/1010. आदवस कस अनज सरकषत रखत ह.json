@@ -10,7 +10,10 @@
     "video_id": "_7aNkoMCp4o",
     "url": "https://www.youtube.com/watch?v=_7aNkoMCp4o",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken",
+      "grain"
+    ]
   },
   "transcription_hindi": [
     "[00:00:06.839] दादा क्या नाम है आपका संजय संजय जी पूरा",

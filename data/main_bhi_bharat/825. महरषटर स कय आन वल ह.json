@@ -10,7 +10,11 @@
     "video_id": "d0XiLTUju_U",
     "url": "https://www.youtube.com/watch?v=d0XiLTUju_U",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "food",
+      "spice",
+      "coconuts"
+    ]
   },
   "transcription_hindi": [
     "[00:00:01.480] कि सूबे का लाइव स्कोर",

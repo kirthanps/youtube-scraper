@@ -10,7 +10,11 @@
     "video_id": "vAehqVYmotU",
     "url": "https://www.youtube.com/watch?v=vAehqVYmotU",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "pork",
+      "beef",
+      "fish"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.240] [संगीत]",

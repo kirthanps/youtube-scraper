@@ -10,7 +10,11 @@
     "video_id": "6sl0zjw_46Q",
     "url": "https://www.youtube.com/watch?v=6sl0zjw_46Q",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "table",
+      "chair",
+      "paper"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.760] तो हां हां बताइए बताइए मोदी",

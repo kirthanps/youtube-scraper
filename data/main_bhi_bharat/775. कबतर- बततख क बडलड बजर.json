@@ -10,7 +10,14 @@
     "video_id": "jsAat_ccQko",
     "url": "https://www.youtube.com/watch?v=jsAat_ccQko",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "pork",
+      "chickens",
+      "pigs",
+      "rice",
+      "ducks",
+      "fish"
+    ]
   },
   "transcription_hindi": [
     "[00:00:16.900] [संगीत]",

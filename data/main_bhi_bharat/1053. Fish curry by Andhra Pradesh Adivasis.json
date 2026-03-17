@@ -10,7 +10,16 @@
     "video_id": "a3XQ5-aCFCM",
     "url": "https://www.youtube.com/watch?v=a3XQ5-aCFCM",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "salt",
+      "turmeric",
+      "urad dal",
+      "curry leaves",
+      "tamarind",
+      "mustard seeds",
+      "red chili",
+      "asafetida"
+    ]
   },
   "transcription_english": [
     "[00:00:01.070] [Music]",

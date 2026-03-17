@@ -10,7 +10,13 @@
     "video_id": "F6qidOj7YTc",
     "url": "https://www.youtube.com/watch?v=F6qidOj7YTc",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "potatoes",
+      "pudding",
+      "balsam cucumbers",
+      "cucumber"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.280] चावल का शराब बना रहे हैं जो हड़िया कहते",

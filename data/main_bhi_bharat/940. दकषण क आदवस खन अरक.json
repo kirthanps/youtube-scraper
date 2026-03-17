@@ -10,7 +10,16 @@
     "video_id": "l7JtedJDvYk",
     "url": "https://www.youtube.com/watch?v=l7JtedJDvYk",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken",
+      "apple",
+      "banana",
+      "ginger",
+      "potato",
+      "onion",
+      "1/2 cup olive oil",
+      "soy sauce"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.240] नमस्कार दोस्तों, मेरा नाम है श्याम सुंदर",

@@ -10,7 +10,12 @@
     "video_id": "Zn8ubC5GkxM",
     "url": "https://www.youtube.com/watch?v=Zn8ubC5GkxM",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "cotton",
+      "wheat",
+      "corn",
+      "soybeans"
+    ]
   },
   "transcription_hindi": [
     "[00:00:01.760] मुझे आपकी आवाज बिल्कुल नहीं आ रही। अब आ",

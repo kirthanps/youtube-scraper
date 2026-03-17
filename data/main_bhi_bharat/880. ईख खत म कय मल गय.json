@@ -10,7 +10,12 @@
     "video_id": "vjvKLmpOaaE",
     "url": "https://www.youtube.com/watch?v=vjvKLmpOaaE",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "wheat",
+      "mahua",
+      "cane",
+      "peanut"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.160] खेत है।",

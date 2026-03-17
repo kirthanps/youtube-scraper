@@ -10,7 +10,10 @@
     "video_id": "VnwHYYrbjMQ",
     "url": "https://www.youtube.com/watch?v=VnwHYYrbjMQ",
     "description": "संताल परगना की तीन लोकसभा सीटों के लिए आज नामांकन हो रहा है. ये सीटें दुमका, गोड्डा और साहिबगंज हैं. मैं भी भारत की टीम इस समय दुमका में मौजूद है जहां शुक्रवार को बकरा बाज़ार होता है.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chickens",
+      "goats"
+    ]
   },
   "transcription_hindi": [
     "[00:00:12.920] नमस्कार दोस्तों मैं हूं श्याम सुंदर और",

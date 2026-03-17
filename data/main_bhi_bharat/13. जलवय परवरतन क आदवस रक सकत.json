@@ -10,7 +10,13 @@
     "video_id": "kx27ZYdrWZM",
     "url": "https://www.youtube.com/watch?v=kx27ZYdrWZM",
     "description": "For generations, Jharkhand’s Adivasi communities have nurtured traditional grains—millets that sustained their food, health, and culture. With the spread of paddy cultivation, these climate-resilient crops slowly disappeared, affecting nutrition and livelihoods.\n\nNow, a quiet return is underway. In districts like Gumla, farmers are turning back to millets such as ragi, recognizing their ability to withstand climate change and ensure sustainable incomes. Supported by the Jharkhand Millet Mission, this shift is not just about farming—it is about reclaiming identity, nutrition, and harmony with nature.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "grain",
+      "water",
+      "millet",
+      "beans"
+    ]
   },
   "transcription_hindi": [
     "[00:00:04.400] झारखंड का आदिवासी सदियों से उन अनाजों का",

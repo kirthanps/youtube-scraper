@@ -10,7 +10,12 @@
     "video_id": "QaGK43rmC9A",
     "url": "https://www.youtube.com/watch?v=QaGK43rmC9A",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "vegetables",
+      "peanuts",
+      "watermelon",
+      "fruit"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.880] दोस्तों आज हम त्रिपुरा के एक आदिवासी",

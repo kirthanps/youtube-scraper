@@ -10,7 +10,11 @@
     "video_id": "L8TnUcCWjyA",
     "url": "https://www.youtube.com/watch?v=L8TnUcCWjyA",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "ancestors",
+      "family",
+      "kitchen"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.659] दोस्तों आज आपको झारखंड उड़ीसा और पश्चिम",

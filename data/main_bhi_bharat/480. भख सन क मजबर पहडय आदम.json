@@ -10,7 +10,11 @@
     "video_id": "3jDvtxpZI9U",
     "url": "https://www.youtube.com/watch?v=3jDvtxpZI9U",
     "description": "A recent survey published in EPW (Economic and Political Weekly) claims that at least 40 percent of families in Paharia tribe (PVTG) go hungry. This survey is done in 18 villages of two district Palamu and Latehar. Recently Modi government has announced 15K crore rupees for development of PVTG communities.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "electricity",
+      "ration",
+      "food"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.240] नमस्कार दोस्तों मैं हूं श्याम सुंदर और",

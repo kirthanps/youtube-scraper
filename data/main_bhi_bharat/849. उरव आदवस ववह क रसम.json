@@ -10,7 +10,13 @@
     "video_id": "rPMAL-vUXlE",
     "url": "https://www.youtube.com/watch?v=rPMAL-vUXlE",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "rice",
+      "grain",
+      "oatmeal",
+      "oil",
+      "salt"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.960] दोस्तों, यह जो दिया आप जलते हुए देख रहे",

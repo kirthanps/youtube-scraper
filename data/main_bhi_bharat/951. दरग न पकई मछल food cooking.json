@@ -10,7 +10,12 @@
     "video_id": "v5lBrhfjaXQ",
     "url": "https://www.youtube.com/watch?v=v5lBrhfjaXQ",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "tomato",
+      "spice",
+      "pepper",
+      "turmeric"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.120] नमस्कार दोस्तों मैं हूं श्याम सुंदर और",

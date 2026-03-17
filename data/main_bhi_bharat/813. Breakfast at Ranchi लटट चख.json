@@ -10,7 +10,16 @@
     "video_id": "VXYD6eWePps",
     "url": "https://www.youtube.com/watch?v=VXYD6eWePps",
     "description": "मैं भी भारत की टीम का राँची में आज दूसरा दिन है. दिन की शुरुआत हो रही है लिट्टी चोखा के नाश्ता से.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "gram flour",
+      "cucumber",
+      "litti-chokha",
+      "sattu",
+      "potato",
+      "tomato",
+      "onion",
+      "brinjal"
+    ]
   },
   "transcription_hindi": [
     "[00:00:24.060] गुड मॉर्निंग दोस्तों जोहार नमस्कार",

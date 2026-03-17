@@ -10,7 +10,13 @@
     "video_id": "GwVt20QdoGs",
     "url": "https://www.youtube.com/watch?v=GwVt20QdoGs",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "tomatoes",
+      "tomato sauce",
+      "salt",
+      "green pepper",
+      "onion"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.399] दोस्तों आज हम गुमला जिले के एक छोटे से",

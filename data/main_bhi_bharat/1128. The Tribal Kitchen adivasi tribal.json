@@ -10,7 +10,12 @@
     "video_id": "cSmTlXBmdW4",
     "url": "https://www.youtube.com/watch?v=cSmTlXBmdW4",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "fish",
+      "peppermint spices",
+      "turmeric spice",
+      "onions"
+    ]
   },
   "transcription_hindi": [
     "[00:00:01.140] क्या ले हैं इसमें मछली कहां से ले",

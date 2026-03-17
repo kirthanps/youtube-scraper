@@ -10,7 +10,14 @@
     "video_id": "Nfdo9nvp1Kc",
     "url": "https://www.youtube.com/watch?v=Nfdo9nvp1Kc",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "peas",
+      "grapes",
+      "guava",
+      "sugar",
+      "wine",
+      "lime juice"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.080] तो एक मोह के दारू से एक नीम का दारू बनाए",

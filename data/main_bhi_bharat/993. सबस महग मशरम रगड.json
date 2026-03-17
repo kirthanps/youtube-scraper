@@ -10,7 +10,11 @@
     "video_id": "ndKo9xWvx5o",
     "url": "https://www.youtube.com/watch?v=ndKo9xWvx5o",
     "description": "Ragda or Rugda mushrooms, scientifically known as Termitomyces spp., are a unique and prized species found in the Sal jungles of India. These mushrooms are symbiotic with termites, often growing on termite mounds. They are highly valued for their nutritional content and distinctive, rich flavour.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "termitomyces_spp",
+      "mushrooms",
+      "button mushrooms"
+    ]
   },
   "transcription_hindi": [
     "[00:00:04.640] दोस्तों यह छत्तीसगढ़ के नारायणपुर जिले",

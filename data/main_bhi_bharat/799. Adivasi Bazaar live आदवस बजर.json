@@ -10,7 +10,12 @@
     "video_id": "p5tmUogIgGo",
     "url": "https://www.youtube.com/watch?v=p5tmUogIgGo",
     "description": "सोमवार को मध्यप्रदेश के अलिराजपुर ज़िले में एक ख़ास आदिवासी बाज़ार लगता है.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "chicken",
+      "peppermint tea",
+      "butter",
+      "honey"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.599] रोते कर देना",

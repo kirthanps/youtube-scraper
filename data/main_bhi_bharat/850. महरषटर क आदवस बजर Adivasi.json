@@ -10,7 +10,11 @@
     "video_id": "JSAGt-W3a70",
     "url": "https://www.youtube.com/watch?v=JSAGt-W3a70",
     "description": "महाराष्ट्र के नंदुरबार जिले की धडगांव तहसील में लगने वाला आदिवासी बाज़ार बेहद ख़ास है.",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "soap",
+      "oil",
+      "spices"
+    ]
   },
   "transcription_hindi": [
     "[00:00:23.119] दोस्तों आज रविवार का दिन है और यह जगह है",

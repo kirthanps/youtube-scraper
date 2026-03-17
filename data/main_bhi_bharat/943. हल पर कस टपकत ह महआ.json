@@ -10,7 +10,13 @@
     "video_id": "es8Ky2_6nPE",
     "url": "https://www.youtube.com/watch?v=es8Ky2_6nPE",
     "description": "",
-    "ingredients_detected": []
+    "ingredients_detected": [
+      "gum",
+      "flour",
+      "fruit",
+      "sugar",
+      "potatoes"
+    ]
   },
   "transcription_hindi": [
     "[00:00:00.680] फागुन का महीना है और हम झारखंड के गुमला",
