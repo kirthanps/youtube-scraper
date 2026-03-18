@@ -143,6 +143,3 @@ if __name__ == "__main__":
         print(line)
 
     print(f"\nTotal lines parsed: {len(parsed)}")
-
-
-lskdjgnfskgjbskfgjbdkfghbsdkfhb
