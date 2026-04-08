@@ -4,11 +4,13 @@ from pathlib import Path
 from openpyxl import Workbook
 
 
-SKIP_DIRS = {"to_translate", "translated", "to_translate_old", "translated_old"}
+SKIP_DIRS = {"to_translate", "translated",
+             "to_translate_old", "translated_old"}
 
 COLUMNS = [
     "File Name",
     "Title",
+    "Video Type",
     "Channel Name",
     "Publish Date",
     "View Count",
@@ -38,10 +40,12 @@ def ingredients_to_text(value) -> str:
 
 def metadata_row(file_name: str, data: dict) -> list:
     metadata = data.get("metadata", {}) if isinstance(data, dict) else {}
+    video_type = data.get("video_type", "") if isinstance(data, dict) else ""
 
     return [
         file_name,
         metadata.get("title", ""),
+        video_type,
         metadata.get("channel_name", ""),
         metadata.get("publish_date", ""),
         metadata.get("view_count", ""),
