@@ -12,5 +12,6 @@
     "description": "Video link ... https://youtu.be/95LhAaUu8qY",
     "ingredients_detected": []
   },
-  "transcription_unknown": []
+  "transcription_unknown": [],
+  "video_type": "food"
 }

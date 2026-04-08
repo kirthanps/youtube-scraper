@@ -12,5 +12,6 @@
     "description": "",
     "ingredients_detected": []
   },
-  "transcription_id": []
+  "transcription_id": [],
+  "video_type": "other"
 }

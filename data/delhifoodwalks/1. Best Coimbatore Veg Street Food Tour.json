@@ -2361,5 +2361,6 @@
     "[00:27:00.000] Chicken polyp can be made into 10 doses in a minute.",
     "[00:27:02.149] It becomes 10 doses in a minute.",
     "[00:27:02.159] In a minute, 10 doses become 10 doses in a minute"
-  ]
+  ],
+  "video_type": "food"
 }

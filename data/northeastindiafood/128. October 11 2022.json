@@ -12,5 +12,6 @@
     "description": "",
     "ingredients_detected": []
   },
-  "transcription_unknown": []
+  "transcription_unknown": [],
+  "video_type": "news"
 }

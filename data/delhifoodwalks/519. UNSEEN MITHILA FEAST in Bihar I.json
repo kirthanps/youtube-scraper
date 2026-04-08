@@ -1253,5 +1253,6 @@
     "[00:40:53.000] Food should eaten by other's choice",
     "[00:40:56.040] Don't eat at your own will. eat what the host serves you",
     "[00:40:59.220] And dress according to your own preference"
-  ]
+  ],
+  "video_type": "food"
 }

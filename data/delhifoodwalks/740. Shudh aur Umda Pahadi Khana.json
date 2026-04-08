@@ -12,5 +12,6 @@
     "description": "Watch the full episode here - https://www.youtube.com/watch?v=NmNfHy7E76U",
     "ingredients_detected": []
   },
-  "transcription_unknown": []
+  "transcription_unknown": [],
+  "video_type": "unpredictable"
 }
