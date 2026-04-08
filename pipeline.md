@@ -7,7 +7,8 @@ This repository is organized around a single end-to-end flow:
 3. Download and parse subtitles into transcription arrays.
 4. Optionally translate missing English transcripts.
 5. Extract ingredient names from transcripts.
-6. Validate, summarize, and export the collected data.
+6. Classify video types (food, news, other, unpredictable) using LLM.
+7. Validate, summarize, and export the collected data.
 
 The code and documentation folders are intentionally paired 1:1. The `code/` folder contains the executable scripts and notebooks, and `code doc/` contains the matching written notes for each file.
 
@@ -70,9 +71,15 @@ flowchart TD
     I --> J[translated/ queue]
     J --> K[restore_translated_files.py]
     F --> L[ingredients extractor.ipynb]
-    F --> M[channel_wise_transcript_stats.py]
-    F --> N[verify_youtube_stage2.py]
-    F --> O[excel_generator.py]
+    F --> M[description_transcription_stats.py]
+    F --> N[length_analysis_classification.py]
+    F --> O[Category classification preprocessing.ipynb]
+    O --> P[Classification video_type category LLM.ipynb]
+    P --> Q[JSON files with video_type field]
+    Q --> R[video_type_stats.py]
+    Q --> S[verify_youtube_stage2.py]
+    Q --> T[channel_wise_transcript_stats.py]
+    Q --> U[excel_generator.py]
 ```
 
 ## Stage 0. Collect Video IDs
@@ -393,6 +400,237 @@ This notebook extracts ingredient names from transcript text, typically from the
 - The notebook is another manual/interactive stage.
 - Chunk boundaries and model output quality are the main sources of variance.
 
+## Stage 4. Video-Type Classification
+
+This stage classifies videos into categories (food, news, other, unpredictable) using LLM analysis. It consists of analysis scripts, preprocessing, and production classification, with test/debug utilities.
+
+### Data Availability Analysis
+
+#### Script
+
+- `code/description_transcription_stats.py`
+
+#### Matching docs
+
+- `code doc/description_transcription_stats.md`
+
+#### What it does
+
+Analyzes what data sources are available for each video: description, English transcription, or neither. This informs which classification strategy to use later.
+
+#### Inputs
+
+- All JSON files across channels
+
+#### Outputs
+
+- Console report with per-channel and overall statistics
+
+#### Categorization used downstream
+
+- **Category 0**: Has description (preferred for classification)
+- **Category 1**: Has English transcription but no description (noisier but longer)
+- **Category 2**: Neither description nor transcription (only title available)
+
+### Text Length Analysis
+
+#### Script
+
+- `code/length_analysis_classification.py`
+
+#### Matching docs
+
+- `code doc/length_analysis_classification.md`
+
+#### What it does
+
+Analyzes the length distribution of text available per category. Helps inform batch processing decisions, token budgeting, and truncation strategies for LLM input.
+
+#### Inputs
+
+- All JSON files with metadata and transcriptions
+
+#### Outputs
+
+- Console table with min/max/average character counts per category per channel
+
+#### Statistical insights
+
+Reveals category-specific patterns, e.g., Category 1 (transcription-only) may have very long text requiring smart slicing for token budgets.
+
+### Preprocessing and Stratified Splits
+
+#### Notebook
+
+- `code/Category classification preprocessing.ipynb`
+
+#### Matching docs
+
+- `code doc/Category classification preprocessing.md`
+
+#### What it does
+
+Prepares videos for LLM classification by categorizing them by content type and creating 4 balanced train/test splits.
+
+#### Inputs
+
+- All channel JSON files
+
+#### Outputs
+
+- `split_1.txt`, `split_2.txt`, `split_3.txt`, `split_4.txt` (each line: `<file_path> <category>`)
+
+#### Methodology
+
+1. Categorize each video (0, 1, or 2) based on available content.
+2. Shuffle within each category for randomization.
+3. Stratify across 4 splits to maintain category ratios.
+4. Rewrite paths for portability (local ↔ Colab).
+
+#### Key workflow
+
+```mermaid
+flowchart TD
+    A[Load all JSONs] --> B[Categorize by content presence]
+    B --> C[Shuffle category groups]
+    C --> D[Stratify across 4 splits]
+    D --> E[Rewrite paths]
+    E --> F[Save split files]
+```
+
+### Production LLM Classifier
+
+#### Notebook
+
+- `code/Classification video_type category LLM.ipynb`
+
+#### Matching docs
+
+- `code doc/Classification video_type category LLM.md`
+
+#### What it does
+
+Batch-classifies videos into `food`, `news`, `other`, or `unpredictable` using Mistral-7B in 4-bit quantized mode. Processes split files with crash-safe resumption. Updates each JSON with a `video_type` field.
+
+#### Inputs
+
+- Split files from preprocessing
+- LLM model (Mistral-7B-4bit)
+- Channel JSON files
+
+#### Outputs
+
+- Updated JSON files with `video_type` field
+- Done-state tracking files for resumption
+
+#### Three input strategies (category-dependent)
+
+**Category 0 (Description Available)**
+```
+[TYPE: DESCRIPTION]
+[TITLE]
+<video title>
+[DESCRIPTION]
+<full description text>
+```
+
+**Category 1 (Transcription Available, No Description)**
+```
+[TYPE: TRANSCRIPT]
+[TITLE]
+<video title>
+[TRANSCRIPT_SNIPPET]
+<smart-sliced excerpt (~4500 chars)>
+[IMPORTANT_LINES]
+<high-signal lines matching food/news keywords>
+```
+- Removes `[HH:MM:SS.ms]` timestamps
+- Extracts head/middle/tail of transcript for context preservation
+- Identifies lines with food/news keywords as signal lines
+
+**Category 2 (Title Only)**
+```
+[TYPE: TITLE_ONLY]
+[TITLE]
+<video title>
+```
+
+#### Prompt optimization
+
+- **Minimalist rules**: "Output ONLY one word" + "No explanation" eliminates verbose output
+- **Timestamp removal**: Eliminates redundant VTT markers  
+- **Smart slicing**: Caps transcript input at ~4500 chars
+- **Signal extraction**: Prioritizes lines with keyword hints
+- **4-bit quantization**: Runs on ~8GB VRAM
+- **Batch processing**: Groups 8 videos per inference call
+
+#### Classification output format
+
+The classifier outputs exactly one of: `food`, `news`, `other`, `unpredictable`
+
+#### Crash safety
+
+Progress is tracked in companion "done" files. On re-run, already-classified videos are skipped.
+
+### Test/Debug Notebook
+
+#### Notebook
+
+- `code/_test_Category classification LLM.ipynb`
+
+#### Matching docs
+
+- `code doc/_test_Category classification LLM.md`
+
+#### What it does
+
+Tests prompt design and input formatting by showing step-by-step transformations for one sample video from each category. Validates output parsing and label extraction logic.
+
+#### Key differences from production
+
+- Verbose prompts with category definitions (for clarity)
+- Single-video inference (vs 8-video batches in production)
+- Strict settings: `do_sample=False, temperature=0.0`
+
+#### Output
+
+Shows per-category:
+1. Source content (description/transcript/title)
+2. Input transformation (after simplification & slicing)
+3. Final prompt
+4. Raw LLM output  
+5. Extracted/parsed label
+
+### Classification Coverage Report
+
+#### Script
+
+- `code/video_type_stats.py`
+
+#### Matching docs
+
+- `code doc/video_type_stats.md`
+
+#### What it does
+
+Reports coverage and distribution of `video_type` labels across the dataset. Identifies unexpected or missing classifications.
+
+#### Inputs
+
+- All JSON files with `video_type` field
+
+#### Outputs
+
+- Per-channel breakdown with percentages
+- Overall summary and unexpected value tracking
+
+#### Classification categories tracked
+
+- `food`: cooking, recipes, ingredients, food preparation, reviews
+- `news`: reporting events, updates, journalism
+- `other`: travel vlogs, lifestyle, entertainment
+- `unpredictable`: insufficient information
+
 ## Validation and Reporting
 
 ### Stage-2 verifier
@@ -469,10 +707,15 @@ The repository keeps a dedicated markdown note for each executable file.
 | `code/restore_translated_files.py` | `code doc/restore_translated_files.md` |
 | `code/check_missing_english_transcripts.py` | `code doc/check_missing_english_transcripts.md` |
 | `code/channel_wise_transcript_stats.py` | `code doc/channel_wise_transcript_stats.md` |
+| `code/description_transcription_stats.py` | `code doc/description_transcription_stats.md` |
+| `code/length_analysis_classification.py` | `code doc/length_analysis_classification.md` |
+| `code/video_type_stats.py` | `code doc/video_type_stats.md` |
 | `code/verify_youtube_stage2.py` | `code doc/verify_youtube_stage2.md` |
 | `code/excel_generator.py` | `code doc/excel_generator.md` |
 | `code/Translate_Subtitles.ipynb` | `code doc/Translate_Subtitles.md` |
 | `code/ingredients extractor.ipynb` | `code doc/ingredients extractor.md` |
+| `code/Category classification preprocessing.ipynb` | `code doc/Category classification preprocessing.md` |
+| `code/Classification video_type category LLM.ipynb` | `code doc/Classification video_type category LLM.md` |
 | `code/_test_parse_vtt.py` | `code doc/_test_parse_vtt.md` |
 | `code/_test_youtube_subtitles.py` | `code doc/_test_youtube_subtitles.md` |
 | `code/_test_single_video_metadata.py` | `code doc/_test_single_video_metadata.md` |
@@ -481,6 +724,7 @@ The repository keeps a dedicated markdown note for each executable file.
 | `code/_test_error_capture.py` | `code doc/_test_error_capture.md` |
 | `code/_test_debug_list_all_subs.py` | `code doc/_test_debug_list_all_subs.md` |
 | `code/_test_debug_lang_confusion.py` | `code doc/_test_debug_lang_confusion.md` |
+| `code/_test_Category classification LLM.ipynb` | `code doc/_test_Category classification LLM.md` |
 
 ## Practical Run Order
 
@@ -494,9 +738,14 @@ If you want the active pipeline in the order it is typically executed, it is:
 6. `Translate_Subtitles.ipynb`
 7. `restore_translated_files.py`
 8. `ingredients extractor.ipynb`
-9. `verify_youtube_stage2.py`
-10. `channel_wise_transcript_stats.py`
-11. `excel_generator.py`
+9. `description_transcription_stats.py` (analysis)
+10. `length_analysis_classification.py` (analysis)
+11. `Category classification preprocessing.ipynb` (preprocessing + create splits)
+12. `Classification video_type category LLM.ipynb` (production classification)
+13. `video_type_stats.py` (coverage report)
+14. `verify_youtube_stage2.py` (validation)
+15. `channel_wise_transcript_stats.py` (coverage metrics)
+16. `excel_generator.py` (export)
 
 ## Operational Caveats
 
@@ -506,7 +755,9 @@ If you want the active pipeline in the order it is typically executed, it is:
 - Translation queue generation overwrites `data/to_translate.txt` on each run.
 - Restoring translated files depends on filename matching inside `data/translated/`.
 - The notebooks are interactive stages and are not automatically chained by the Python scripts.
+- Video-type classification requires GPU for Mistral-7B (Colab T4/A100 recommended).
+- Classification preprocessing creates balanced splits but path rewriting is critical for moving between environments (local ↔ Colab).
 
 ## Bottom Line
 
-The pipeline is a channel-by-channel YouTube ingestion flow that starts with ID discovery, turns each video into a normalized JSON record, enriches those records with subtitles and optional translations, extracts ingredient metadata, and finally validates and exports the result. The active working state lives in `data/`, and the ID files are the main source of truth for progress.
+The pipeline is a channel-by-channel YouTube ingestion flow that starts with ID discovery, turns each video into a normalized JSON record, enriches those records with subtitles and optional translations, extracts ingredient metadata, classifies videos by type using LLM analysis, and finally validates and exports the result. The active working state lives in `data/`, and the ID files are the main source of truth for progress. Each video ends up as a JSON record enriched with metadata, transcriptions, ingredients, and video-type classification.
